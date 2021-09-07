@@ -164,7 +164,9 @@ HINT: Remember that the order in which we pass in our arguments matters when it 
 
 
 function game(user, computer){
-  // if ()
+  if (user === computer){
+    "It's a tie!"
+  }
 }
 
 
@@ -211,9 +213,7 @@ Using the annoyingSong function below do the following:
 */
 
 function annoyingSong(number){
-      for (let number = 99; number >= 0; number--){
-      return ${number} +" bottles of soda on the wall, " +${number} + " bottles of soda, take one down pass it around " +(number-1) + " bottles of soda on the wall";
-}
+      return number + " bottles of soda on the wall, " + number + " bottles of soda, take one down pass it around " + (number-1) + " bottles of soda on the wall"
 }
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
